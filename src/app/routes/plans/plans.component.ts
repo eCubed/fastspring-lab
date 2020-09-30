@@ -25,7 +25,10 @@ export class PlansComponent implements OnInit {
         { path: itemIdentifier, quantity: 1 }
       ],
       checkout: true,
-      account: 'wFz_sebkSbq1E0TEtNCiFQ'
+      tags: {
+        emailIdentifier: 'johnsmith.917117@gmail.com',
+        customTag: 'ABC-Custom-Tag'
+      }
     });
   }
 }
